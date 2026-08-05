@@ -1,0 +1,47 @@
+name: final_project_baylon_francisco
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.10.0
+  cloud_firestore: ^4.5.0
+  image_picker: ^0.8.6
+  timeago: ^3.3.0
+  video_player: ^2.6.1
+  firebase_storage: ^11.0.0
+  shared_preferences: ^2.3.4
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: header
+      fonts:
+        - asset: fonts/Madame.otf
+    - family: normal
+      fonts:
+        - asset: fonts/Stalysta_personal_use.ttf
+    - family: simpletext
+      fonts:
+        - asset: fonts/MADECarvingSoftPERSONALUSE-Regular.otf
+
+  assets:
+    - images/1.png
+    - images/1_nobg.png
+    - images/2.png
+    - images/2_nobg.png
+    - images/bg.png
+    - images/comment_profile.jpg
